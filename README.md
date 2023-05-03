@@ -1,0 +1,3 @@
+Download Link: https://assignmentchef.com/product/solved-cpts355-homework-5
+<br>
+The Postscript is a dynamically scoped language. In this assignment, you will be modifying your SPS interpreter (Assignment 4 – Simple Post Script Interpreter) to handle a slightly different language which supports static scoping. We will call this language Scoped Simple PostScript – SSPS.  <strong>SSPS has no </strong><strong>dict, </strong><strong>begin or </strong><strong>end operations. Instead, each time a postscript function is called a new dictionary is automatically pushed on the dictionary stack. And when the function execution is complete, this dictionary will be popped out of the stack.</strong> The dictionary must be able to hold an arbitrary number of names.
